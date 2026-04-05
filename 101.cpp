@@ -50,7 +50,7 @@ void render(void){
     SDL_SetRenderDrawColor(renderer, 255, 209, 220, 255);
     SDL_RenderClear(renderer);
 
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     drawcircle(w / 2.0f, h / 2.0f, r);
 
     SDL_RenderPresent(renderer);
